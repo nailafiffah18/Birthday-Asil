@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090b24" />
+    <title>Buat Asil✦</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="starfield" aria-hidden="true"></div>
+    <div class="nebula nebula-one" aria-hidden="true"></div>
+    <div class="nebula nebula-two" aria-hidden="true"></div>
+
+    <button
+      class="music-toggle"
+      id="musicToggle"
+      aria-label="Putar atau jeda musik"
+    >
+      ♫ <span>Music off</span>
+    </button>
+    <audio id="birthdayMusic" loop>
+      <source src="audio/Banda Neira - Sampai Jadi Debu - Peaceful Piano [9CHAP_Sdc9A] (mp3cut.net).mp3" type="audio/mpeg" />
+    </audio>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <p class="eyebrow">
+          <span class="tiny-star">✦</span> A SOMETHING SPECIAL FOR YOU
+          <span class="tiny-star">✦</span>
+        </p>
+        <div class="planet" aria-hidden="true">
+          <span class="planet-ring"></span><span class="planet-glow"></span>
+        </div>
+        <h1>Happy <span>Birthday</span></h1>
+        <p class="hero-copy">
+          Di antara miliaran bintang di semesta,<br />hari ini semesta merayakan
+          <em>kamu.</em>
+        </p>
+        <button class="primary-button" id="startButton">
+          Mulai perjalanan <span>↗</span>
+        </button>
+        <p class="scroll-note">SCROLL TO EXPLORE THE UNIVERSE ↓</p>
+      </section>
+
+      <section class="message section" id="message">
+        <div class="glass-card">
+          <div class="card-stars">✦　·　✧　·　✦</div>
+          <p class="script">A little reminder for you</p>
+          <h2>You make this universe<br /><span>a little brighter.</span></h2>
+          <p class="body-copy">
+            Happy Birthday Asiill. Terima kasih sudah jadi orang yang tetap tinggal, di hari-hari ketika aku ceria maupun saat aku sendiri tak paham apa yang kurasakan. Semoga di usia yang baru ini, semua kebaikan yang selama ini kamu bagikan kepada orang lain pulang kepadamu dalam bentuk bahagia yang tak habis-habis.
+          </p>
+          <p class="body-copy">
+            Kalau suatu hari kamu lelah dan merasa sendirian, ingat ya: ada satu orang yang akan selalu ada di sisimu. Kamu tidak perlu jadi kuat setiap saat, karena kamu punya tempat untuk bersandar. Terima kasih sudah jadi rumah paling nyaman untuk pulang, bahkan di semesta seluas ini.
+          </p>
+          <div class="signature">with a little stardust, <span>♡</span></div>
+        </div>
+      </section>
+
+      <section class="wish section" id="wish">
+        <h2>Choose a star.<br /><span>Make a wish.</span></h2>
+        <p class="body-copy centered">
+          Pilih satu bintang di bawah ini, lalu titipkan harapanmu ke semesta.
+        </p>
+        <div
+          class="wish-stars"
+          role="group"
+          aria-label="Pilih bintang untuk membuat harapan"
+        >
+          <button
+            class="wish-star"
+            data-wish="Semoga kamu selalu dikuatkan di hari-hari yang berat, disyukuri di hari-hari yang biasa, dan dibahagiakan di hari-hari yang tak terduga. Semoga tahun ini lebih baik dari yang kemarin. Aamiin."
+            aria-label="Bintang pertama"
+          >
+            ✦<span>Happiness</span>
+          </button>
+          <button
+            class="wish-star"
+            data-wish="Semoga tahun ini jadi tahun di mana rencana-rencanamu pelan-pelan jadi nyata, dan hal-hal yang kamu tunggu akhirnya datang di waktu yang paling tepat."
+            aria-label="Bintang kedua"
+          >
+            ✧<span>Dreams</span>
+          </button>
+          <button
+            class="wish-star"
+            data-wish="Terima kasih sudah bertahan sejauh ini. Semoga di tahun ini kamu lebih sering merasa tenang, lebih sering merasa didukung, dan tidak lagi merasa harus menanggung semuanya sendiri. Kamu selalu punya tempat untuk bersandar."
+            aria-label="Bintang ketiga"
+          >
+            ✦<span>Peace</span>
+          </button>
+        </div>
+        <div class="wish-result" id="wishResult" aria-live="polite">
+          <span class="result-icon">☄</span>
+          <p>Pilih bintangmu untuk membuka pesan.</p>
+        </div>
+      </section>
+
+      <section class="memories section" id="memories">
+        <h2>Moments that<br /><span>deserve to stay.</span></h2>
+        <p class="body-copy centered">
+          Beberapa kenangan kecil yang rasanya pantas disimpan di antara
+          bintang-bintang.
+        </p>
+        <div class="memory-grid">
+          <article class="memory-card memory-one">
+            <img src="image/foto 1.jpeg" alt="Kenangan pertama" class="memory-photo" loading="lazy" style=" width: 100%;
+  height: 180px; object-fit: cover;     border-radius: 16px;
+  margin-bottom: 16px; border: 1px solid rgba(255, 255, 255, 0.15);">
+            <h3>Terimaksih</h3>
+            <p>Untuk hari-hari sederhana yang ternyata berharga.</p>
+          </article>
+          <article class="memory-card memory-two">
+            <img src="image/foto 2.jpeg" alt="Kenangan pertama" class="memory-photo" loading="lazy" style=" width: 100%;
+  height: 180px; object-fit: cover;     border-radius: 16px;
+  margin-bottom: 16px; border: 1px solid rgba(255, 255, 255, 0.15);">
+            <h3>Terimakasih</h3>
+            <p>Untuk tawa yang datang tanpa direncanakan.</p>
+          </article>
+          <article class="memory-card memory-three">
+           <img src="image/foto 3.jpeg" alt="Kenangan pertama" class="memory-photo" loading="lazy" style=" width: 100%;
+  height: 180px; object-fit: cover;     border-radius: 16px;
+  margin-bottom: 16px; border: 1px solid rgba(255, 255, 255, 0.15);">
+            <h3>Terimakasih</h3>
+            <p>Untuk semua hal baik yang masih menunggu di depan.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="final section" id="final">
+        <div class="final-star">✦</div>
+        <p class="eyebrow">ONE LAST THING</p>
+        <h2>Semangat kuliah<br /><span>Semangat IlKom.</span></h2>
+        <p class="body-copy centered">
+          Semoga tahun ini membawa hal-hal yang membuatmu tumbuh, orang-orang
+          yang membuatmu merasa aman, dan momen-momen kecil yang bikin kamu
+          berpikir, “ternyata hidup bisa seindah ini.”
+        </p>
+        <p class="final-wish">Happy Birthday <span>♡</span></p>
+        <button class="text-button" id="backToTop">Kembali ke awal ↑</button>
+      </section>
+    </main>
+    <footer>by : Nay & Farhan <span>✦</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
